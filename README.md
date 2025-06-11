@@ -31,6 +31,6 @@
 
   `pip install torch`
 
-2. Istall AIMNet2 code
+2. Install AIMNet2 code
 
    `pip install git+https://github.com/isayevlab/aimnetcentral.git`
