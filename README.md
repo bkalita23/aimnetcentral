@@ -38,24 +38,24 @@
 ## Installation with conda
 1. Create a conda environment python 3.12
 
- `conda create -n aimnetcentral python=3.12`
+   `conda create -n aimnetcentral python=3.12`
 
- `conda activate aimnetcentral`
+   `conda activate aimnetcentral`
 
 2. install pytorch 2.7.0
 
- `conda install conda-forge::pytorch` 
+   `conda install conda-forge::pytorch` 
 
 3. Install other dependencies as required
 
 4. Install AIMNet2
 
- `pip install git+https://github.com/isayevlab/aimnetcentral.git`
+   `pip install git+https://github.com/isayevlab/aimnetcentral.git`
 
- or
+   or
 
- `git clone https://github.com/isayevlab/aimnetcentral.git`
+   `git clone https://github.com/isayevlab/aimnetcentral.git`
 
- `cd aimnetcentral`
- 
- `pip install -e .`
+   `cd aimnetcentral`
+
+   `pip install -e .`
