@@ -42,7 +42,17 @@
 
    `conda activate aimnetcentral`
 
-2. install pytorch 2.7.0
+2. install pytorch: check package compatibility and update version
+
+-CUDA  12.6
+
+   `conda install pytorch torchvision torchaudio pytorch-cuda=12.6 -c pytorch -c nvidia` 
+
+-CUDA  11.8
+
+   `conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia` 
+
+-CPU only
 
    `conda install conda-forge::pytorch` 
 
